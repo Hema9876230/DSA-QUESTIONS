@@ -1,5 +1,6 @@
 class Solution {
     public int searchInsert(int[] nums, int target) {
+        //Binary Search approach - time complexity - O(log n)
 
         int start = 0;
         int end = nums.length - 1;
