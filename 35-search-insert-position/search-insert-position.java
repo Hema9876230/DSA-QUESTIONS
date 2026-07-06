@@ -1,6 +1,8 @@
 class Solution {
     public int searchInsert(int[] nums, int target) {
         //Binary Search approach - time complexity - O(log n)
+        //we have to return target index  if target is in array 
+        //we have o find expected target index if target is not in array 
 
         int start = 0;
         int end = nums.length - 1;
